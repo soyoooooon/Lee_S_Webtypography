@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Goonies';
+  src:  url('Goonies.woff2') format('woff2'),
+        url('Goonies.woff') format('woff');
+}
+
+
+.hidden{display: none}
+
+main{
+width: 1024px;
+margin: 0 auto;
+}
+
+
+header{
+background-image: url(../images/goonies.jpg);
+background-repeat: no-repeat;
+
+height: 330px;
+}
+
+body{
+	font-size: 16px; 
+} /* an em or a rem are relative measurement based on body font size */
+
+.text-graphic{
+	font-size: 7.5em;
+	font-family: "Goonies", san-serif;
+	
+	background: linear-gradient(to top, #F27322 10%, #F9E639 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text; 
+
+	position: relative;
+
+	left: 25px;
+	 top: 185px;
+}
+
+.text-graphic span{
+	font-size: 3rem;
+
+	background: linear-gradient(to bottom, #F27322 10%, #F9E639 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text; 
+
+	position: absolute;
+	top: -45px;
+}
